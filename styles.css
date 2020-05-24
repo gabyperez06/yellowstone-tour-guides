@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 100px;
+    border-bottom: 1px solid lightgray;
+    padding: 20px 20px 0px 20px;
+
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 2.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 75px;
+    height: 75px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+
+
+/*newcode*/
+/* Dropdown Button */
+.dropbtn {
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 10px 10px;
+    text-align: left;
+    font-size: 0.9rem;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: white}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {opacity: 0.6;}
+/*endnewcode*/
+
+
+
+.banner {
+    height: 600px;
+    background-color: whitesmoke;
+    background-image: url(images/main-background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1 {
+    color: whitesmoke;
+    font-size: 7rem;
+    font-family: 'Permanent Marker', sans-serif;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Permanent Marker', sans-serif;
+    padding-bottom: 20px;
+}
+
+.about-section {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2.5rem;
+    font-size: 1.25rem;
+}
+
+.button {
+    background-color: darkslategray;
+    color: white;
+    width: 250px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tours-container {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.tours-container p {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px 0px 20px 0px;
+}
+
+.tours-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 906px;
+    margin: 0 auto;
+}
+
+.tour-item img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.tour-grid-container {
+    background-color: white;
+    color:  black;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    border-top: 3px solid black;
+    font-size: 1.5rem;
+    border-right: 2px solid black;
+}
+
+.tour-item p {
+    padding: 5px;
+}
+
+.divider {
+    background-image: url(images/background3.jpg);
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.guides-container {
+    padding: 50px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    width: 900px;
+    margin: 0 auto;
+    
+}
+
+.guides-container p {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px 0px 20px 0px;
+}
+
+.guides-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.guide-item {
+    display: block;
+}
+
+.guide-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.guide-item p {
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-container {
+    background-image: url(images/contactbackground.jpg);
+    height: 300px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px
+}
+
+
+
+.contact-item {
+    text-align: center;
+    width: 500px;
+    color: white;
+    opacity: 0.9;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+}
+
+footer {
+    height: 75px;
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .75rem;
+}
+
+.footer-item {
+    display: flex;
+    justify-content: space-around;
+ 
+}
+
+i {
+    text-decoration: none;
+    color: white;
+}
+
+
+
