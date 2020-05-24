@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+}
+
+.about-container {
+    display: block;
+    background-image: url(images/aboutbackground.jpg);
+    padding: 50px;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+
+.about-info {
+    background-color: whitesmoke;
+    opacity: 0.9;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    padding: 20px;
+    width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+p {
+    padding-bottom: 20px;
+}
+
+.about-info a {
+    border-bottom: 1px solid black;
+}
+
+.about-info a:hover {
+    opacity: 0.6;
+}
