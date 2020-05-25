@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    
+}
+
+.day-hiking-images{
+    display: flex;
+    justify-content: space-between;
+}
+
+.day-hiking-images img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.tours-page-container {
+    background-image: url(images/background3.jpg);
+    padding: 50px;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+h3 {
+    padding-bottom: 20px;
+}
+

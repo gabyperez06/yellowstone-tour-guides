@@ -42,7 +42,6 @@ body {
 }
 
 
-
 .tour-info-container {
     background-color: whitesmoke;
     opacity: .9;
@@ -79,5 +78,9 @@ ul {
 
 }
 
+.links p {
+    font-size: 0.9rem;
+    text-align: left;  
+ }
 
 
