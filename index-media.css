@@ -1,0 +1,70 @@
+/*mobile media query for home page */
+
+@media only screen and (max-width: 500px){
+
+    .banner h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .banner {
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .about-section p {
+        font-size: 1rem;
+    }
+
+    .tours-container {
+        width: 400px;
+        align-items: center;
+        padding: 50px 0px;
+    }
+
+    .tours-grid {
+        width: 400px;  
+    }
+
+    .tour-item img {
+        width: 195px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .tour-grid-container {
+        font-size: 1rem;
+        
+        
+    }
+
+    .guides-container {
+        width: 400px;
+        align-items: center;
+        padding: 50px 0px;
+    }
+    
+    .guides-grid {
+        width: 400px;
+        
+    }
+
+    .guide-item img {
+        width: 150px;
+        height: 150px;
+
+    }
+
+    .contact-container {
+        width: 400px;
+        padding: 20px 0px;
+    }
+
+    .contact-item {
+    
+        width: 400px;
+        
+        
+    }
+}
