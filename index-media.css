@@ -1,6 +1,6 @@
 /*mobile media query for home page */
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 480px){
 
     .banner h1 {
         font-size: 3rem;
@@ -18,7 +18,7 @@
     }
 
     .tours-container {
-        width: 400px;
+        /* width: 400px; */
         align-items: center;
         padding: 50px 0px;
     }
@@ -40,13 +40,13 @@
     }
 
     .guides-container {
-        width: 400px;
+        width: 400px; 
         align-items: center;
         padding: 50px 0px;
     }
     
     .guides-grid {
-        width: 400px;
+     width: 400px; 
         
     }
 
@@ -57,13 +57,13 @@
     }
 
     .contact-container {
-        width: 400px;
+     /*   width: 400px; */
         padding: 20px 0px;
     }
 
     .contact-item {
     
-        width: 400px;
+     /*   width: 400px; */
         
         
     }
