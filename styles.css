@@ -283,5 +283,52 @@ i {
     color: white;
 }
 
+/*mobile media query for header and footer */
 
+@media only screen and (max-width: 500px){
+    body {
+        width: 400px;
+    }
 
+    .logo {
+        padding-bottom: 15px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .logo p {
+        visibility: hidden;
+    }
+
+    header {
+        width: 400px;
+        padding: 10px 10px 0px 10px;
+    }        
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .menu {
+        font-size: 0.75rem;
+        justify-content: flex-end;
+
+    }
+
+    .menu > div {
+        margin-right: 15px;
+    }
+
+    .menu > div:last-of-type {
+        margin-right: 0;
+    }
+
+    .dropbtn, .dropdown-content a {
+        font-size: 0.75rem;
+    }
+
+    .footer {
+        width: 400px;
+    }
+
+}
