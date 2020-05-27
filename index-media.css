@@ -1,6 +1,6 @@
 /*mobile media query for home page */
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 400px){
 
     .banner h1 {
         font-size: 3rem;
