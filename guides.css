@@ -54,6 +54,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.tour-guide em {
+    font-size: 1rem;
+}
+
 .tour-guide h3 {
     color: black;
     text-align: left;
@@ -63,7 +67,16 @@ body {
 }
 
 .tour-guide img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
+    padding: 10px;
+}
+
+.tour-guide {
+    align-items: center;
+}
+
+.last-image {
+    justify-content: flex-end;
 }
