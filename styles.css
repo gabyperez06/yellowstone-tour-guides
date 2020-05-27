@@ -285,9 +285,9 @@ i {
 
 /*mobile media query for header and footer */
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 480px){
     body {
-        width: 400px;
+      /*  width: 400px; */
     }
 
     .logo {
@@ -301,7 +301,7 @@ i {
     }
 
     header {
-        width: 400px;
+      /*  width: 400px; */
         padding: 10px 10px 0px 10px;
     }        
 
@@ -327,8 +327,8 @@ i {
         font-size: 0.75rem;
     }
 
-    .footer {
+/*    .footer {
         width: 400px;
     }
-
+*/
 }
