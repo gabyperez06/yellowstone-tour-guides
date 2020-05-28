@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    
+}
+
+.guides-container {
+    background-image: url(images/backpacking-background.jpg);
+    padding: 50px;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+
+.tour-guide img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    
+}
+
+
+.first-item h3 {
+    font-family: 'Permanent Marker', sans-serif;
+    color: black;
+    text-align: left;
+}
+
+.first-item p {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-align: left;
+}
+
+.first-item {
+    background-color: whitesmoke;
+    opacity: .9;
+    display: block;
+    margin-bottom: 10px;
+    padding: 20px;
+    align-items: left;
+}
+
+ul {
+    text-align: left;
+    color: black;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.links p {
+    font-size: 0.9rem;
+    text-align: left;  
+ }
+
+ h3 {
+    padding-bottom: 20px;
+
+}
+
+.backpacking-adventures {
+    margin-left: 20px;
+}
+
+.tour-guide {
+    background-color: whitesmoke;
+    opacity: .9;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.tour-guide p {
+    color: black;
+    text-align: left;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tour-guide em {
+    font-size: 1rem;
+}
+
+.tour-guide h3 {
+    color: black;
+    text-align: left;
+    font-family: 'Permanent Marker', sans-serif;
+    padding-top: 0px;
+    padding-left: 20px;
+}
+
+.tour-guide img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.tour-guide {
+    align-items: center;
+}
