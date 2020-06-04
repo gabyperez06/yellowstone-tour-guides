@@ -294,9 +294,11 @@ i {
 
 /*mobile media query for header and footer */
 
-@media only screen and (max-width: 480px){
-    body {
-      /*  width: 400px; */
+@media only screen and (max-width: 500px){
+    
+
+    .promotion {
+        font-size: .7rem;
     }
 
     .logo {
